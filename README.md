@@ -5,4 +5,4 @@
 <p><a href="https://www.youtube.com/watch?v=RBQX-Ko7A_s">Document Structure</a></p>.
 <p><a href="http://www.w3schools.com/html/html_charset.asp">Resource Link: HTML Encoding (Character Sets)</a>
 
-<a href='https://learn.co/lessons/document-structure' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/document-structure' title='Document Structure'>Document Structure</a> on Learn.co and start learning to code for free.</p>
