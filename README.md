@@ -1,14 +1,6 @@
 # Document Structure
 
-**Note:** To see your project live as you code, simply type `httpserver` in the terminal, and this will start a server for you. Now you can go to the IP address that the terminal gives you to view your web pages! (Check out [this Help Center article](http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide) for more information).
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/RBQX-Ko7A_s?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=RBQX-Ko7A_s">Alternate video link</a>.</p>
-
-<p><a href="http://www.w3schools.com/html/html_charset.asp">Resource Link: HTML Encoding (Character Sets)</a></p>
-
-### Cloning Down Your Repository
+#### Cloning Down Your Repository
 
 If you've completed the steps in the Setting Up a New Site lesson, clone down
 your existing exceptional-realty repository by do the following:
@@ -25,6 +17,14 @@ set up, you can access all the files you need to follow along by following the f
 * To switch to this branch, type `git checkout document-structure`, and you should see files appear in your directory tree.
 
 These files mirror the files that exist at the start of this lesson, so use these to build from and follow along.
+
+**Note:** To see your project live as you code, simply type `httpserver` in the terminal, and this will start a server for you. Now you can go to the IP address that the terminal gives you to view your web pages! (Check out [this Help Center article](http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide) for more information).
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/RBQX-Ko7A_s?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+<p><a href="https://www.youtube.com/watch?v=RBQX-Ko7A_s">Alternate video link</a>.</p>
+
+<p><a href="http://www.w3schools.com/html/html_charset.asp">Resource Link: HTML Encoding (Character Sets)</a></p>
 
 ### Basic HTML structure
 
@@ -76,5 +76,15 @@ In the `<head>` section, we place a number of specific tags.
 ### `<body> </body>`
 
 All viewable content of a webpage is contained within the `<body>` section of the page. In the next lesson, we'll go into some of the basic text elements that go into the `<body>`.
+
+### Add, Commit and Push!
+
+If you're following along on your own repository, when you're finished, make sure that your work is saved remotely before moving on to the next lesson!
+
+```
+git add .
+git commit -m 'document structure lesson complete'
+git push
+```
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/document-structure'>Document Structure</a> on Learn.co and start learning to code for free.</p>
