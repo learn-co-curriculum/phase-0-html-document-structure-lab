@@ -1,6 +1,6 @@
 tags:
-  - none
+  - bundler
+  - introduction
 languages:
-  - none
-resources:
-  - none
+  - ruby
+resources: 2
