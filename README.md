@@ -22,12 +22,12 @@ Alternatively, if you are having trouble or do not have a repository
 set up, you can access all the files you need to follow along by following
 the following steps to clone down the demo:
 
-* In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Once the repository is cloned down, type `cd exceptional-realy-demo` to
-  navigate into the repository folder.
-* In the project folder, type `git fetch --all`, then type
-  `git checkout document-structure` to switch over to the branch for this
-  repository, and you should see files appear in your directory tree.
+```
+git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
+cd exceptional-realy-demo
+git fetch --all
+git checkout document-structure
+```
 
 These files mirror the files that exist at the start of this lesson, so use
 these to build from and follow along.
