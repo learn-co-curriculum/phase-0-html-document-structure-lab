@@ -93,7 +93,7 @@ our webpage, and this information will be stored in the `<head>`.
 In the `<head>` section, we place a number of specific tags.
 
 * The `<meta>` tag provides metadata about the document, including what
-  character set to us, a description of the content, specific keywords, and the
+  character set to use, a description of the content, specific keywords, and the
   author. Adding this metadata on the content of the page helps search engines
   to know what the page contains. There is also a `viewport` method, which
   instructs the browser on how to control the page's dimensions and scaling.
@@ -108,9 +108,9 @@ In the `<head>` section, we place a number of specific tags.
 ```
 
 * The `<link>` tag is also used here, and is for importing in external files.
-  Most commonly, we'll see this being used to import in CSS style sheets, fonts,
-  and JavaScript files and libraries. In the below example, `link` is used to
-  import in a specific Google font:
+  Most commonly, we'll see this being used to import in CSS style sheets as 
+  well as fonts. In the below example, `link` is used to import in a specific
+  Google font:
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
