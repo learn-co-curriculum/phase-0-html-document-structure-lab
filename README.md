@@ -24,7 +24,7 @@ the following steps to clone down the demo:
 
 ```
 git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
-cd exceptional-realy-demo
+cd exceptional-realty-demo
 git fetch --all
 git checkout document-structure
 ```
