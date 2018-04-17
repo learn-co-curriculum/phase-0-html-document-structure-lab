@@ -16,6 +16,7 @@ for more information).
 
 ## Basic HTML Structure:
 
+Let's begin by making changes to our `index.html` file.
 
 #### `<!DOCTYPE html>`
 
@@ -41,7 +42,7 @@ language a page is written in. Our `index.html` should now look like this:
 
 ```html
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 </html>
 ```
 
