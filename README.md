@@ -2,11 +2,10 @@
 
 ## Problem Statement
 
-In order for a browser to interpret and display HTML content, every HTML
-document has a specific set of required tags. Because these are required _every_
-time we create a web page, it is valuable to gain a more in-depth understanding
-of what these tags do and why they are useful and how they work in context to
-the modern web.
+Every HTML document has a specific set of required tags. Because these are
+required _every_ time we create a web page, it is valuable to gain a more
+in-depth understanding of what these tags do and why they are useful and how
+they work in context to the modern web.
 
 In this lesson, we will be both reviewing what we have learned about a well
 formed HTML document and expanding a bit on the `doctype`, `html` and `head`
@@ -14,12 +13,12 @@ tags, as well as introducing how to add comments within our HTML code.
 
 ## Objectives
 
-- Reinforce our understanding of the basic HTML document structure
-- Introduce HTML comments
-- Expand our understanding of the `head` section and its contents
-- Reinforce our understanding of document structure through creation
+1. Reinforce our understanding of the basic HTML document structure
+2. Introduce HTML comments
+3. Expand our understanding of the `head` section and its contents
+4. Reinforce our understanding of document structure through creation
 
-## Basic HTML Structure:
+## Reinforce Our Understanding Of The Basic HTML Document Structure
 
 Let's quickly review the bare essentials of an HTML document. In the provided
 `index.html` file, add the following tags:
@@ -32,7 +31,7 @@ Let's quickly review the bare essentials of an HTML document. In the provided
 If written correctly, running `learn` now will pass the first test of this lab.
 Let's take a closer look at these tags.
 
-#### `<!DOCTYPE html>`
+### `<!DOCTYPE html>`
 
 At the top of every HTML document, you're always going to start off with the
 same element, `doctype`. In the early days of the internet, there were fewer
@@ -49,7 +48,7 @@ point, `!`, followed by `DOCTYPE`, then specifies which version of HTML we want
 to use. In HTML5, we just write `html` and the browser interprets the rest of the
 document as HTML5.
 
-#### `<html>`
+### `<html>`
 
 The next element is also always required: `<html>`. This tells the browser
 that everything that falls between the opening and closing `html` tags is to
@@ -66,7 +65,7 @@ attribute to know when to prompt uses about translating web content.
 </html>
 ```
 
-#### `<!-- Comments -->`
+## Introduce HTML Comments
 
 Sometimes we want to leave notes either for ourselves or for other developers
 inside of our HTML files. An example might be a brief explanation of what some
@@ -80,7 +79,7 @@ comments by wrapping the text we want like so:
 Text included in a comment will not be visible on the webpage, but will be
 visible in the browser console and `.html` file.
 
-#### `head`
+## Expand Our Understanding Of The `head` Section And Its Contents
 
 Inside our `html` tags, we divide the page into two main sections, `head`, and
 `body`, which both play unique roles. The remainder of our HTML lessons will
@@ -96,7 +95,7 @@ In the `head` section, we place a number of specific tags, most notably:
 
 Let's look at each of them in turn:
 
-###### `meta`
+### `meta`
 
 The `meta` tag provides metadata about the document, including what character
 set to use, a description of the content, specific keywords, and the author.
@@ -128,7 +127,7 @@ Examples of the `<meta>` tags types we can add into our `head` section:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-##### `link`
+### `link`
 
 The `<link>` tag is for importing files. Most commonly, we'll see this being
 used to import CSS files. In the example below, `link` is used to import a
@@ -145,7 +144,7 @@ in the `head`.  For example, when designing a web page, we can import in fonts
 from Google, some specific styling from an external source, like
 [Bootstrap](https://getbootstrap.com/), as well as our own custom styling.
 
-##### `title`
+### `title`
 
 One more common tag we find in the `head` is `title`. The `title`, as its name
 implies, is where the title of the webpage should be entered. Text added inside
@@ -160,11 +159,11 @@ Notice that unlike the previous tags we've discussed, `title` has an opening and
 closing tag. In most modern browsers, tabs are fairly small, so it is often best
 to keep the title brief, or it will not be fully visible.
 
-## Challenge
+## Reinforce Our Understanding Of Document Structure Through Creation
 
 Okay, time to put what we've learned to the test. To complete this lab, you must
 apply all the tags we've discussed in this lesson.  Run `learn` to see what is
-required to pass each test.
+required to pass each test. Each test will urge you on.
 
 ## Conclusion
 
