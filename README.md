@@ -28,7 +28,11 @@ Let's quickly review the bare essentials of an HTML document. In the provided
 * Opening and closing `head` tags nested inside the `html` tags
 * Opening and closing `body` tags nested inside the `html` tags
 
-If written correctly, running `learn` now will pass the first test of this lab.
+If written correctly, running `learn` now will pass the **first** test of this
+lab.  **However** you will not be done yet! We have to make **all** the tests
+pass in order to make the test code happy! Fixing this first one means that we
+get to attack the next one. Let's get to it!
+
 Let's take a closer look at these tags.
 
 ### `<!DOCTYPE html>`
