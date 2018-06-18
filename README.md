@@ -144,7 +144,7 @@ The `<link>` tag is for importing files.
 Most commonly, we'll use `<link>` to import CSS files. Like so:
 
 ```html
-<link rel="stylesheet" type="text/css" href="theme.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 ```
 
 Linking stylesheets this way allows multi-page websites to share a source of
