@@ -103,6 +103,7 @@ Let's look at each of them in turn:
 
 The `meta` tag provides metadata about the document, including what character
 set to use, a description of the content, specific keywords, and the author.
+
 Adding this metadata on the content of the page helps search engines know what
 the page contains, so taking the time to include these will help bump your web
 pages up in rank on relevant searches.
@@ -133,20 +134,40 @@ Examples of the `<meta>` tags types we can add into our `head` section:
 
 ### `link`
 
-The `<link>` tag is for importing files. Most commonly, we'll see this being
-used to import CSS files. In the example below, `link` is used to import a
-specific Google font:
+The `<link>` tag is for importing files.
+
+> **CAREFUL**: It's easy to get confused here because web pages are full of
+> links, but also use a `<link>` tag. "Links" that you click on are located
+> within the `<body>` element. The `<link>` tags are located in the `<head>`
+> element.
+
+Most commonly, we'll use `<link>` to import CSS files. Like so:
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="theme.css">
 ```
 
-Linking stylesheets this way allows multipage websites to share a source of
+Linking stylesheets this way allows multi-page websites to share a source of
 styling content for every page, making for a consistent, easy to maintain file
 structure.  Often, on fully developed websites, multiple stylesheets are linked
-in the `head`.  For example, when designing a web page, we can import in fonts
-from Google, some specific styling from an external source, like
-[Bootstrap](https://getbootstrap.com/), as well as our own custom styling.
+in the `head`.  For example, when doing the final polishing of a web site you
+might see a series of `<link>` definitions like:
+
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="company.css">
+<link rel="stylesheet" type="text/css" href="engineering-department.css">
+<link rel="stylesheet" type="text/css" href="project-x-launch.css">
+<link rel="stylesheet" type="text/css" href="typography.css">
+
+In this example we're getting some CSS information from the
+[Bootstrap](https://getbootstrap.com/) project, we're integrating a company
+style standard, an engineering style standard, a style motif for the launch of
+"Project X" and then we're adding some specific rules about font display. You
+can bring in a **lot** of information with the `<link>` tag!
+
+This specific example aside, you'll be learning a lot more about linking
+files to create stylistic effect in later lessons.
 
 ### `title`
 
