@@ -159,6 +159,7 @@ might see a series of `<link>` definitions like:
 <link rel="stylesheet" type="text/css" href="engineering-department.css">
 <link rel="stylesheet" type="text/css" href="project-x-launch.css">
 <link rel="stylesheet" type="text/css" href="typography.css">
+```
 
 In this example we're getting some CSS information from the
 [Bootstrap](https://getbootstrap.com/) project, we're integrating a company
