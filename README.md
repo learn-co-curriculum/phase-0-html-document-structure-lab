@@ -1,6 +1,13 @@
 # Document Structure Continued
 
-## Problem Statement
+## Learning Goals
+
+1. Reinforce our understanding of the basic HTML document structure
+2. Introduce HTML comments
+3. Expand our understanding of the `head` section and its contents
+4. Reinforce our understanding of document structure through creation
+
+## Introduction
 
 Every HTML document has a specific set of required tags. Because these are
 required _every_ time we create a web page, it is valuable to gain a more
@@ -10,13 +17,6 @@ they work in context to the modern web.
 We will be both reviewing setting up well-formed HTML documents and expanding a
 bit on the `doctype`, `html` and `head` tags, as well as introducing how to add
 comments within our HTML code.
-
-## Objectives
-
-1. Reinforce our understanding of the basic HTML document structure
-2. Introduce HTML comments
-3. Expand our understanding of the `head` section and its contents
-4. Reinforce our understanding of document structure through creation
 
 ## Reinforce Our Understanding Of The Basic HTML Document Structure
 
