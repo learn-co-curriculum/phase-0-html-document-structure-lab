@@ -4,12 +4,12 @@
 
 Every HTML document has a specific set of required tags. Because these are
 required _every_ time we create a web page, it is valuable to gain a more
-in-depth understanding of what these tags do and why they are useful and how
+in-depth understanding of what these tags do, why they are useful, and how
 they work in context to the modern web.
 
-In this lesson, we will be both reviewing what we have learned about a well
-formed HTML document and expanding a bit on the `doctype`, `html` and `head`
-tags, as well as introducing how to add comments within our HTML code.
+We will be both reviewing setting up well-formed HTML documents and expanding a
+bit on the `doctype`, `html` and `head` tags, as well as introducing how to add
+comments within our HTML code.
 
 ## Objectives
 
