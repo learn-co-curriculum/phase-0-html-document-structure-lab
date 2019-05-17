@@ -1,24 +1,24 @@
 # Document Structure Continued
 
-## Problem Statement
+## Learning Goals
+
+1. Recognize basic HTML document structure
+2. Recognize HTML comments
+3. Describe the `head` section and its contents
+4. Create an HTML document
+
+## Introduction
 
 Every HTML document has a specific set of required tags. Because these are
 required _every_ time we create a web page, it is valuable to gain a more
-in-depth understanding of what these tags do and why they are useful and how
+in-depth understanding of what these tags do, why they are useful, and how
 they work in context to the modern web.
 
-In this lesson, we will be both reviewing what we have learned about a well
-formed HTML document and expanding a bit on the `doctype`, `html` and `head`
-tags, as well as introducing how to add comments within our HTML code.
+We will be both reviewing setting up well-formed HTML documents and expanding a
+bit on the `doctype`, `html` and `head` tags, as well as introducing how to add
+comments within our HTML code.
 
-## Objectives
-
-1. Reinforce our understanding of the basic HTML document structure
-2. Introduce HTML comments
-3. Expand our understanding of the `head` section and its contents
-4. Reinforce our understanding of document structure through creation
-
-## Reinforce Our Understanding Of The Basic HTML Document Structure
+## Recognize Basic HTML Document Structure
 
 Let's quickly review the bare essentials of an HTML document. In the provided
 `index.html` file, add the following tags:
@@ -69,7 +69,7 @@ attribute to know when to prompt uses about translating web content.
 </html>
 ```
 
-## Introduce HTML Comments
+## Recognize HTML Comments
 
 Sometimes we want to leave notes either for ourselves or for other developers
 inside of our HTML files. An example might be a brief explanation of what some
@@ -83,7 +83,7 @@ comments by wrapping the text we want like so:
 Text included in a comment will not be visible on the webpage, but will be
 visible in the browser console and `.html` file.
 
-## Expand Our Understanding Of The `head` Section And Its Contents
+## Describe the `head` Section and its Contents
 
 Inside our `html` tags, we divide the page into two main sections, `head`, and
 `body`, which both play unique roles. The remainder of our HTML lessons will
@@ -151,7 +151,7 @@ Notice that unlike the previous tags we've discussed, `title` has an opening and
 closing tag. In most modern browsers, tabs are fairly small, so it is often best
 to keep the title brief, or it will not be fully visible.
 
-## Reinforce Our Understanding Of Document Structure Through Creation
+## Create an HTML Document
 
 Okay, time to put what we've learned to the test. To complete this lab, you must
 apply all the tags we've discussed in this lesson.  Run `learn` to see what is
