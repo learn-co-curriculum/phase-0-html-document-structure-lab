@@ -15,7 +15,7 @@ in-depth understanding of what these tags do, why they are useful, and how
 they work in context to the modern web.
 
 We will be both reviewing setting up well-formed HTML documents and expanding a
-bit on the `doctype`, `html` and `head` tags, as well as introducing how to add
+bit on the `DOCTYPE`, `html` and `head` tags, as well as introducing how to add
 comments within our HTML code.
 
 ## Recognize Basic HTML Document Structure
@@ -23,7 +23,7 @@ comments within our HTML code.
 Let's quickly review the bare essentials of an HTML document. In the provided
 `index.html` file, add the following tags:
 
-* A `doctype` tag
+* A `DOCTYPE` tag
 * Opening and closing `html` tags
 * Opening and closing `head` tags nested inside the `html` tags
 * Opening and closing `body` tags nested inside the `html` tags
@@ -38,16 +38,16 @@ Let's take a closer look at these tags.
 ### `<!DOCTYPE html>`
 
 At the top of every HTML document, you're always going to start off with the
-same element, `doctype`. In the early days of the internet, there were fewer
+same element, `DOCTYPE`. In the early days of the internet, there were fewer
 standards, and it was important to declare the specific way we wanted browsers
 to interpret the file at the top of each file. Netscape and Internet Explorer
 would look for this declaration and handle the content differently depending on
 what it found. These days, every current browser is compatible with HTML5, and
-`doctype` is mainly used to tell the browser to render the page in standards
+`DOCTYPE` is mainly used to tell the browser to render the page in standards
 compliant mode.
 
 The `DOCTYPE` element, as with all HTML, starts with a `<`
-and ends with a `>`. Uniquely, the `doctype` tag starts with an exclamation
+and ends with a `>`. Uniquely, the `DOCTYPE` tag starts with an exclamation
 point, `!`, followed by `DOCTYPE`, then specifies which version of HTML we want
 to use. In HTML5, we just write `html` and the browser interprets the rest of the
 document as HTML5.
@@ -113,9 +113,9 @@ Most commonly, we'll use `<link>` to import CSS files. Like so:
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
-Linking stylesheets this way allows multi-page websites to share a source of
+Linking style sheets this way allows multi-page websites to share a source of
 styling content for every page, making for a consistent, easy to maintain file
-structure.  Often, on fully developed websites, multiple stylesheets are linked
+structure.  Often, on fully developed websites, multiple style sheets are linked
 in the `head`.  For example, when doing the final polishing of a web site you
 might see a series of `<link>` definitions like:
 
