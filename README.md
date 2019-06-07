@@ -167,3 +167,4 @@ a bit into the basics of Search Engine Optimization! We are now ready to take a
 deeper dive into the visual content of HTML pages.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/document-structure'>Document Structure</a> on Learn.co and start learning to code for free.</p>
+
