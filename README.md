@@ -18,6 +18,10 @@ We will be both reviewing setting up well-formed HTML documents and expanding a
 bit on the `DOCTYPE`, `html` and `head` tags, as well as introducing how to add
 comments within our HTML code.
 
+## Getting Started
+
+If you haven't already, fork and clone this lesson into your local environment. Navigate into its directory in the terminal, then run `code .` to open the files in Visual Studio Code (If you are using a different text editor, the command will be different). Finally, run `bundle` to install the lab's dependencies.
+
 ## Recognize Basic HTML Document Structure
 
 Let's quickly review the bare essentials of an HTML document. In the provided
@@ -28,7 +32,7 @@ Let's quickly review the bare essentials of an HTML document. In the provided
 * Opening and closing `head` tags nested inside the `html` tags
 * Opening and closing `body` tags nested inside the `html` tags
 
-If written correctly, running `learn` now will pass the **first** test of this
+If written correctly, running `rspec` now will pass the **first** test of this
 lab.  **However** you will not be done yet! We have to make **all** the tests
 pass in order to make the test code happy! Fixing this first one means that we
 get to attack the next one. Let's get to it!
@@ -154,7 +158,7 @@ to keep the title brief, or it will not be fully visible.
 ## Create an HTML Document
 
 Okay, time to put what we've learned to the test. To complete this lab, you must
-apply all the tags we've discussed in this lesson.  Run `learn` to see what is
+apply all the tags we've discussed in this lesson.  Run `rspec` to see what is
 required to pass each test. Each test will urge you on.
 
 ## Conclusion
@@ -165,8 +169,3 @@ to add relevant data about our webpage as a whole. As a bonus surprise, by
 learning how to make our web pages _search engine friendly_, we've also dabbled
 a bit into the basics of Search Engine Optimization! We are now ready to take a
 deeper dive into the visual content of HTML pages.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/document-structure'>Document Structure</a> on Learn.co and start learning to code for free.</p>
-
-
-
