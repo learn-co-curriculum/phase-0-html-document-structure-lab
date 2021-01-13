@@ -161,6 +161,22 @@ Okay, time to put what we've learned to the test. To complete this lab, you must
 apply all the tags we've discussed in this lesson.  Run `rspec` to see what is
 required to pass each test. Each test will urge you on.
 
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignmnent is only on your local
+machine. To preserve work on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use
+the following commands to do this:
+
+```sh
+git add .
+git commit -m "Completed assignment"
+git push
+```
+
+If you visit your fork on GitHub, you should now see that _you've_ made the most
+recent commit, and your solution will be present in the files.
+
 ## Conclusion
 
 In this lesson, we've reviewed the basics of document structure, as well as what
