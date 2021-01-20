@@ -97,6 +97,7 @@ The `head` section is not visible to a website visitor, but it contains a lot of
 useful info about our webpage.
 
 In the `head` section, we place a number of specific tags, most notably:
+
   - `<link>`
   - `<title>`
 
