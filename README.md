@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-1. Recognize basic HTML document structure
-2. Recognize HTML comments
-3. Describe the `head` section and its contents
-4. Create an HTML document
+- Recognize basic HTML document structure
+- Recognize HTML comments
+- Describe the `head` section and its contents
+- Create an HTML document
 
 ## Introduction
 
