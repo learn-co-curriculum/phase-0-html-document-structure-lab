@@ -107,10 +107,10 @@ Let's look at each of them in turn:
 
 The `<link>` tag is for importing files.
 
-> **CAREFUL**: It's easy to get confused here because web pages are full of
-> links, but also use a `<link>` tag. "Links" that you click on are located
-> within the `<body>` element. The `<link>` tags are located in the `<head>`
-> element.
+**CAREFUL**: It's easy to get confused here because web pages are full of
+links, but also use a `<link>` tag. "Links" that you click on are located
+within the `<body>` element. The `<link>` tags are located in the `<head>`
+element.
 
 Most commonly, we'll use `<link>` to import CSS files. Like so:
 
