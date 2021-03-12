@@ -94,3 +94,14 @@ def parsed_html
     config.strict.dtdload.dtdvalid.noblanks
   end
 end
+
+def validate_html
+  validator = W3CValidators::NuValidator.new
+  html = File.read('./index.html')
+  results = validator.validate_text(html)
+
+  error_messages = "Expected a valid w3c document but got:\n#{results.errors.collect{|e| e.to_s}.join("\n")}"
+  puts error_messages
+  return results
+end
+# if validate.errors. length is not 0 then puts out the error from 103
