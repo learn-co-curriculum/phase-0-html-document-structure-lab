@@ -11,8 +11,8 @@
 
 Every HTML document has a specific set of required tags. Because these are
 required _every_ time we create a web page, it is valuable to gain a more
-in-depth understanding of what these tags do, why they are useful, and how
-they work in context to the modern web.
+in-depth understanding of what these tags do, why they are useful, and how they
+work in context to the modern web.
 
 We will be both reviewing setting up well-formed HTML documents and expanding a
 bit on the `DOCTYPE`, `html` and `head` tags, as well as introducing how to add
@@ -20,20 +20,23 @@ comments within our HTML code.
 
 ## Getting Started
 
-If you haven't already, fork and clone this lesson into your local environment. Navigate into its directory in the terminal, then run `code .` to open the files in Visual Studio Code (If you are using a different text editor, the command will be different). Finally, run `bundle` to install the lab's dependencies.
+If you haven't already, fork and clone this lesson into your local environment.
+Navigate into its directory in the terminal, then run `code .` to open the files
+in Visual Studio Code (If you are using a different text editor, the command
+will be different). Finally, run `bundle` to install the lab's dependencies.
 
 ## Recognize Basic HTML Document Structure
 
 Let's start by adding the bare essentials of an HTML document to the provided
 `index.html` file:
 
-* A `DOCTYPE` tag, which looks like this: `<!DOCTYPE html>`
-* Opening and closing `html` tags
-* Opening and closing `head` tags nested inside the `html` tags
-* Opening and closing `body` tags nested inside the `html` tags
+- A `DOCTYPE` tag, which looks like this: `<!DOCTYPE html>`
+- Opening and closing `html` tags
+- Opening and closing `head` tags nested inside the `html` tags
+- Opening and closing `body` tags nested inside the `html` tags
 
 If written correctly, running `rspec` now will pass the **first** test of this
-lab.  **However** you will not be done yet! We have to make **all** the tests
+lab. **However** you will not be done yet! We have to make **all** the tests
 pass in order to make the test code happy! Fixing this first one means that we
 get to attack the next one. Let's get to it!
 
@@ -50,17 +53,16 @@ what it found. These days, every current browser is compatible with HTML5, and
 `DOCTYPE` is mainly used to tell the browser to render the page in standards
 compliant mode.
 
-The `DOCTYPE` element, as with all HTML, starts with a `<`
-and ends with a `>`. Uniquely, the `DOCTYPE` tag starts with an exclamation
-point, `!`, followed by `DOCTYPE`, then specifies which version of HTML we want
-to use. In HTML5, we just write `html` and the browser interprets the rest of the
-document as HTML5.
+The `DOCTYPE` element, as with all HTML, starts with a `<` and ends with a `>`.
+Uniquely, the `DOCTYPE` tag starts with an exclamation point, `!`, followed by
+`DOCTYPE`, then specifies which version of HTML we want to use. In HTML5, we
+just write `html` and the browser interprets the rest of the document as HTML5.
 
 ### `<html>`
 
-The next element is also always required: `<html>`. This tells the browser
-that everything that falls between the opening and closing `html` tags is to
-be interpreted as HTML code.
+The next element is also always required: `<html>`. This tells the browser that
+everything that falls between the opening and closing `html` tags is to be
+interpreted as HTML code.
 
 One attribute that is important to include in the `<html>` tag is `lang`, which
 declares what language the webpage is written in. In our case, writing in
@@ -98,8 +100,8 @@ useful info about our webpage.
 
 In the `head` section, we place a number of specific tags, most notably:
 
-  - `<link>`
-  - `<title>`
+- `<link>`
+- `<title>`
 
 Let's look at each of them in turn:
 
@@ -107,10 +109,9 @@ Let's look at each of them in turn:
 
 The `<link>` tag is for importing files.
 
-**CAREFUL**: It's easy to get confused here because web pages are full of
-links, but also use a `<link>` tag. "Links" that you click on are located
-within the `<body>` element. The `<link>` tags are located in the `<head>`
-element.
+**CAREFUL**: It's easy to get confused here because web pages are full of links,
+but also use a `<link>` tag. "Links" that you click on are located within the
+`<body>` element. The `<link>` tags are located in the `<head>` element.
 
 Most commonly, we'll use `<link>` to import CSS files. Like so:
 
@@ -138,8 +139,8 @@ style standard, an engineering style standard, a style motif for the launch of
 "Project X" and then we're adding some specific rules about font display. You
 can bring in a **lot** of information with the `<link>` tag!
 
-This specific example aside, you'll be learning a lot more about linking
-files to create stylistic effect in later lessons.
+This specific example aside, you'll be learning a lot more about linking files
+to create stylistic effect in later lessons.
 
 ### `title`
 
@@ -166,8 +167,8 @@ required to pass each test. Each test will urge you on.
 
 Currently, the work you've done on this assignmnent is only on your local
 machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
 
 ```sh
 git add .
