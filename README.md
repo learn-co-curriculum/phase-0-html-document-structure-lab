@@ -24,10 +24,10 @@ If you haven't already, fork and clone this lesson into your local environment. 
 
 ## Recognize Basic HTML Document Structure
 
-Let's quickly review the bare essentials of an HTML document. In the provided
-`index.html` file, add the following tags:
+Let's start by adding the bare essentials of an HTML document to the provided
+`index.html` file:
 
-* A `DOCTYPE` tag
+* A `DOCTYPE` tag, which looks like this: `<!DOCTYPE html>`
 * Opening and closing `html` tags
 * Opening and closing `head` tags nested inside the `html` tags
 * Opening and closing `body` tags nested inside the `html` tags
