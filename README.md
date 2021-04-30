@@ -68,7 +68,7 @@ One attribute that is important to include in the `<html>` tag is `lang`, which
 declares what language the webpage is written in. In our case, writing in
 English, we will use `lang="en"`. This helps search engines to know what
 language a page is written in. Google, for instance, can use the `lang`
-attribute to know when to prompt uses about translating web content.
+attribute to know when to prompt users about translating web content.
 
 ```html
 <html lang="en">
