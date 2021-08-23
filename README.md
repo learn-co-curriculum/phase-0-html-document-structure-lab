@@ -71,8 +71,7 @@ language a page is written in. Google, for instance, can use the `lang`
 attribute to know when to prompt users about translating web content.
 
 ```html
-<html lang="en">
-</html>
+<html lang="en"></html>
 ```
 
 ## Recognize HTML Comments
@@ -116,21 +115,24 @@ but also use a `<link>` tag. "Links" that you click on are located within the
 Most commonly, we'll use `<link>` to import CSS files. Like so:
 
 ```html
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
 Linking style sheets this way allows multi-page websites to share a source of
 styling content for every page, making for a consistent, easy to maintain file
-structure.  Often, on fully developed websites, multiple style sheets are linked
-in the `head`.  For example, when doing the final polishing of a web site you
+structure. Often, on fully developed websites, multiple style sheets are linked
+in the `head`. For example, when doing the final polishing of a web site you
 might see a series of `<link>` definitions like:
 
 ```html
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="company.css">
-<link rel="stylesheet" type="text/css" href="engineering-department.css">
-<link rel="stylesheet" type="text/css" href="project-x-launch.css">
-<link rel="stylesheet" type="text/css" href="typography.css">
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="company.css" />
+<link rel="stylesheet" type="text/css" href="engineering-department.css" />
+<link rel="stylesheet" type="text/css" href="project-x-launch.css" />
+<link rel="stylesheet" type="text/css" href="typography.css" />
 ```
 
 In this example we're getting some CSS information from the
@@ -160,7 +162,7 @@ to keep the title brief, or it will not be fully visible.
 ## Create an HTML Document
 
 Okay, time to put what we've learned to the test. To complete this lab, you must
-apply all the tags we've discussed in this lesson.  Run `rspec` to see what is
+apply all the tags we've discussed in this lesson. Run `rspec` to see what is
 required to pass each test. Each test will urge you on.
 
 ## Saving Your Work Remotely
@@ -170,10 +172,10 @@ machine. To preserve work on your GitHub fork, you will need to stage the
 changes you've made, commit them, and push the commit up to GitHub. Use the
 following commands to do this:
 
-```sh
-git add .
-git commit -m "Completed assignment"
-git push
+```console
+$ git add .
+$ git commit -m "Completed assignment"
+$ git push
 ```
 
 If you visit your fork on GitHub, you should now see that _you've_ made the most
@@ -182,7 +184,7 @@ recent commit, and your solution will be present in the files.
 ## Conclusion
 
 In this lesson, we've reviewed the basics of document structure, as well as what
-is typically contained within the `head`.  Using the `head` section, we are able
+is typically contained within the `head`. Using the `head` section, we are able
 to add relevant data about our webpage as a whole. As a bonus surprise, by
 learning how to make our web pages _search engine friendly_, we've also dabbled
 a bit into the basics of Search Engine Optimization! We are now ready to take a
