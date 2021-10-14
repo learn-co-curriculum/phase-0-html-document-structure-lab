@@ -5,7 +5,7 @@ RSpec.describe "Has a Valid Document Structure" do
   end
 
   it 'Includes HTML tags' do
-    expect(html_file_contents).to include('<html>')
+    expect(html_file_contents).to include('<html')
     expect(html_file_contents).to include('</html>')
   end
 
