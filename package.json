@@ -17,6 +17,7 @@
   "homepage": "https://github.com/learn-co-curriculum/phase-0-html-document-structure-lab#readme",
   "devDependencies": {
     "chai": "^4.3.4",
+    "chai-dom": "^1.10.0",
     "global-jsdom": "^8.3.0",
     "html-validate": "^6.1.2",
     "jsdom": "^18.1.0",
