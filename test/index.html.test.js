@@ -78,7 +78,7 @@ describe("index.html", () => {
 
       const hint2 =
         "The content inside the <title> tag should be 'My Site Title'";
-      expect(title, hint2).to.have.text("My Site Title");
+      expect(title, hint2).to.contain.text("My Site Title");
     });
   });
 
