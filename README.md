@@ -23,8 +23,7 @@ comments within our HTML code.
 If you haven't already, fork and clone this lesson into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
 in Visual Studio Code (If you are using a different text editor, the command
-will be different). Finally, run `npm install` to install the lab's
-dependencies.
+will be different).
 
 ## Recognize Basic HTML Document Structure
 
@@ -36,7 +35,7 @@ Let's start by adding the bare essentials of an HTML document to the provided
 - Opening and closing `head` tags nested inside the `html` tags
 - Opening and closing `body` tags nested inside the `html` tags
 
-If written correctly, running `npm test` now will pass the **first** test of
+If written correctly, running `learn test` now will pass the **first** test of
 this lab. **However** you will not be done yet! We have to make **all** the
 tests pass in order to make the test code happy! Fixing this first one means
 that we get to attack the next one. Let's get to it!
@@ -163,24 +162,8 @@ to keep the title brief, or it will not be fully visible.
 ## Create an HTML Document
 
 Okay, time to put what we've learned to the test. To complete this lab, you must
-apply all the tags we've discussed in this lesson. Run `npm test` to see what is
+apply all the tags we've discussed in this lesson. Run `learn test` to see what is
 required to pass each test. Each test will urge you on.
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
