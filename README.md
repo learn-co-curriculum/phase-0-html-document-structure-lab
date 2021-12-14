@@ -22,8 +22,7 @@ comments within our HTML code.
 
 If you haven't already, fork and clone this lesson into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
-in Visual Studio Code (If you are using a different text editor, the command
-will be different).
+in Visual Studio Code.
 
 ## Recognize Basic HTML Document Structure
 
