@@ -92,11 +92,15 @@ describe("index.html", () => {
         },
       });
       const report = validator.validateString(html);
-      const errors = report.results[0].messages
-        .map((m) => m.message)
-        .join("\n\t");
 
-      expect(report.valid, `invalid HTML: \n\t${errors}`).to.be.true;
+      let errorReport;
+      if (report.results.length > 0) {
+        errorReport = report.results[0].messages
+          .map((m) => m.message)
+          .join("\n\t");
+      }
+
+      expect(report.valid, `invalid HTML: \n\t${errorReport}\n\t`).to.be.true;
     });
   });
 });
