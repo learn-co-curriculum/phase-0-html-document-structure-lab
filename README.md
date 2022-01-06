@@ -34,10 +34,16 @@ Let's start by adding the bare essentials of an HTML document to the provided
 - Opening and closing `head` tags nested inside the `html` tags
 - Opening and closing `body` tags nested inside the `html` tags
 
-If written correctly, running `learn test` now will pass the **first** test of
-this lab. **However** you will not be done yet! We have to make **all** the
-tests pass in order to make the test code happy! Fixing this first one means
-that we get to attack the next one. Let's get to it!
+> Note: Recall that best practice indicates that any HTML elements that are
+> nested inside other HTML elements (i.e., between the opening and closing tags
+> of another element) should be indented. It is not *necessary* to use
+> indenting, either for the HTML to render properly or to pass the tests, but
+> it's a good habit to get into. Go ahead and indent the `head` and `body` tags
+> inside the `html` tags, if you haven't already.
+
+If written correctly, running `learn test` now will pass three of the seven
+tests. **However** you will not be done yet! We have to make **all** the tests
+pass in order to make the test code happy! Let's get to it!
 
 Let's take a closer look at these tags.
 
@@ -72,6 +78,9 @@ attribute to know when to prompt users about translating web content.
 ```html
 <html lang="en"></html>
 ```
+
+Go ahead and add the language attribute to the `html` element. Now, if you run
+the tests again, there should be four passing.
 
 ## Recognize HTML Comments
 
@@ -111,17 +120,17 @@ The `<link>` tag is for importing files.
 but also use a `<link>` tag. "Links" that you click on are located within the
 `<body>` element. The `<link>` tags are located in the `<head>` element.
 
-Most commonly, we'll use `<link>` to import CSS files. Like so:
+Most commonly, we'll use `<link>` to import CSS files. Go ahead and add the
+following inside your `head` element (don't forget to indent!):
 
 ```html
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" >
 ```
 
-Linking style sheets this way allows multi-page websites to share a source of
-styling content for every page, making for a consistent, easy to maintain file
-structure. Often, on fully developed websites, multiple style sheets are linked
-in the `head`. For example, when doing the final polishing of a web site you
-might see a series of `<link>` definitions like:
+With a simple website, linking a single style sheet might work just fine. Often,
+however, on fully developed websites, multiple style sheets are linked in the
+`head`. For example, when doing the final polishing of a web site you might see
+a series of `<link>` definitions like:
 
 ```html
 <link
@@ -143,26 +152,25 @@ can bring in a **lot** of information with the `<link>` tag!
 This specific example aside, you'll be learning a lot more about linking files
 to create stylistic effect in later lessons.
 
+Run the test again; you should now have five passing. Only two more to go!
+
 ### `title`
 
 One more common tag we find in the `head` is `title`. The `title`, as its name
 implies, is where the title of the webpage should be entered. Text added inside
-the `title` tags will appear up on your browser tab. Adding a title for our
-`index.html` page would look something like:
+the `title` tags will appear up on your browser tab. Add the following title for
+our `index.html` page:
 
 ```html
-<title>Cat Perry's Favorite Cats</title>
+<title>My Site Title</title>
 ```
 
 Notice that unlike the previous tags we've discussed, `title` has an opening and
 closing tag. In most modern browsers, tabs are fairly small, so it is often best
 to keep the title brief, or it will not be fully visible.
 
-## Create an HTML Document
-
-Okay, time to put what we've learned to the test. To complete this lab, you must
-apply all the tags we've discussed in this lesson. Run `learn test` to see what is
-required to pass each test. Each test will urge you on.
+Adding the title should get the last two tests passing! Run the tests one last
+time to verify.
 
 ## Conclusion
 
