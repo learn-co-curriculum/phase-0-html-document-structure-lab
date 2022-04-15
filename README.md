@@ -42,8 +42,14 @@ Let's start by adding the bare essentials of an HTML document to the provided
 > inside the `html` tags, if you haven't already.
 
 If written correctly, running `learn test` now will pass three of the seven
-tests. **However** you will not be done yet! We have to make **all** the tests
-pass in order to make the test code happy! Let's get to it!
+tests:
+
+- `has a DOCTYPE tag`
+- `has opening and closing HTML tags`
+- `has <head> and <body> tags nested in the <html> tag`
+
+However you will not be done yet! We have to make **all** the tests pass in
+order to make the test code happy! Let's get to it!
 
 Let's take a closer look at these tags.
 
