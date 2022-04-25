@@ -31,11 +31,6 @@ describe("index.html", () => {
       expect(htmlElement, hint).to.exist;
     });
 
-    it("has a language attribute in the <html> tag", () => {
-      const htmlElement = document.querySelector("html");
-      expect(htmlElement).to.have.attribute("lang", "en");
-    });
-
     it("has <head> and <body> tags nested in the <html> tag", () => {
       expect(html).to.contain("<head>");
       expect(html).to.contain("</head>");
@@ -53,6 +48,11 @@ describe("index.html", () => {
       // the second child should be a <body> tag
       const hint2 = "Include a <body> element nested inside the <html> element";
       expect(htmlElement, hint2).to.have.descendant("body");
+    } );
+    
+    it("has a language attribute in the <html> tag", () => {
+      const htmlElement = document.querySelector("html");
+      expect(htmlElement).to.have.attribute("lang", "en");
     });
   });
 
