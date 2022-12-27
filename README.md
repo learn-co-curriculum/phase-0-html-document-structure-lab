@@ -178,6 +178,9 @@ to keep the title brief, or it will not be fully visible.
 Adding the title should get the last two tests passing! Run the tests one last
 time to verify.
 
+As always, don't forget to push up your code and submit it using CodeGrade once
+everything is passing.
+
 ## Conclusion
 
 In this lesson, we've reviewed the basics of document structure, as well as what
