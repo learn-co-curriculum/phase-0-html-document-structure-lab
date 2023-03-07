@@ -130,7 +130,7 @@ Most commonly, we'll use `<link>` to import CSS files. Go ahead and add the
 following inside your `head` element (don't forget to indent!):
 
 ```html
-<link rel="stylesheet" type="text/css" href="style.css" >
+<link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
 With a simple website, linking a single style sheet might work just fine. Often,
