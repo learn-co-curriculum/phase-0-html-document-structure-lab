@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Document Structure Continued",
   "scripts": {
-    "test": "mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json"
+    "test": "mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json --bail"
   },
   "author": "flatironschool",
   "license": "Included in Repo",
